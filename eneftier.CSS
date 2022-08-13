@@ -13,8 +13,7 @@ body{
 }
 nav{
     background: rgb(46, 3, 46);
-    width: 900px;
-    margin: auto;
+    width: 100%;
     z-index: 1;
 }
 
@@ -22,7 +21,7 @@ nav a{
     color: white;
     text-decoration: 0;
     text-align: left;
-    padding: 0.1rem 3rem;
+    padding: 0 2rem;
     font-size: 1rem;
     display: block;
 }
@@ -100,4 +99,87 @@ main{
     box-shadow: 2px 2px 10px #ccc;
 }
  
+#Landing-Image{
+    background-image: url(Assets/NFT-Art-7.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 0 1 60vw;
+}
 
+.Header{
+    padding: 1.5rem;
+    text-align: center;
+    background-color: rgb(46, 3, 46);
+    width: 100%;
+    max-height: 100%;
+}
+
+.Header h2{
+    font-size: 2rem;
+    display: inline-block;
+    padding: 0.3rem 1.5rem;
+}
+
+.Photo img{
+    display: block;
+    max-height: 100vh;
+    width: 100%;
+    transition: 0.3s;
+}
+.Photo img:hover{
+    transform: scale(1.01);
+}
+.Photo2 img{
+    display: block;
+    max-height: 100vh;
+    width: 100%;
+    transition: 0.3s;
+}
+.Photo2 img:hover{
+    transform: scale(1.01);
+}
+
+.caption{
+    text-align: center;
+    padding: 1rem 0 4rem;
+    background-color: rgb(46, 3, 46);
+}
+.caption p{
+    color: #fff;
+    padding: 2rem 2rem 2rem 2rem;
+    background-color: rgb(173, 20, 173);
+}
+.caption1{
+    text-align: center;
+    padding: 1rem 0 4rem;
+    background-color: rgb(46, 3, 46);
+}
+.caption1 p{
+    color: #fff;
+    padding: 0.5rem;
+}
+.caption1 h3{
+    font-weight: 100;
+    color: #fff;
+}
+.caption1 h4{
+    color: #fff;
+}
+.caption1 h6{
+    color: #fff;
+    font-weight: 5;
+}
+.btn2{
+    text-decoration: none;
+    color: white;
+    border: 1px white solid;
+    border-radius: 15px;
+    padding: 0rem 1rem 0rem;
+}
+.btn2:hover{
+    color: palevioletred;
+    transition: 1s;
+    box-shadow: 2px 2px 10px #ccc;
+}
